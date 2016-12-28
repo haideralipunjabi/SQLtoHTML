@@ -1,11 +1,15 @@
 import src.fileManager as fileManager
 import src.databaseManager
 import src.htmlManager
+import sys
 
 html = src.htmlManager.htmlManager()
 def chooseDatabase():  # Function to get user input to choose database
 
     databases = fileManager.getDatabases()
+    if(len(databases) == 0):
+        input("No database found. Place a .db file in the root directory")
+        sys.exit()
     for file in databases:
         print("[" + str(databases.index(file)) + "] " + file)
     user_input_chooseDatabase = input('Enter database to use: ')
