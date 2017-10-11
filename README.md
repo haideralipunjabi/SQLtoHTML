@@ -4,7 +4,11 @@ I have used database in many projects of mine, and am surely going to use them i
 
 
 # Usage
-Place the .db file in the root directory along with main.py and run main.py
+Place the .db file in the root directory along with main.py and run main.py  
+
+
+## [Demo](https://haideralipunjabi.github.io/SQLtoHTML/)
+  ![Screenshot](https://i.imgur.com/FcjBGxm.png)
 
 # Tip
 The table generated has _"sortable"_ class. Use the generated table along side [Sorttable](http://www.kryogenix.org/code/browser/sorttable/) to make a sortable table
