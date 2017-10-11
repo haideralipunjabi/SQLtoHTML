@@ -8,11 +8,11 @@ class htmlManager:
         self.page.table(class_="sortable")
 
     def addHeader(self, columns):
-        self.page.tr()
+        self.page.thead()
         print(len(columns))
         for column in columns:
             self.page.th(column)
-        self.page.tr.close()
+        self.page.thead.close()
 
     def addData(self, rows):
         for row in rows:
@@ -25,4 +25,3 @@ class htmlManager:
         file = open(str(database).rstrip(".db") + ".html","w+")
         file.write(str(self.page))
         file.close()
-
