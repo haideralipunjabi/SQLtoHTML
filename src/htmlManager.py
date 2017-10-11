@@ -1,4 +1,4 @@
-import markup
+import MarkupPy.markup as markup
 import src.fileManager as fileManager
 import os
 class htmlManager:
