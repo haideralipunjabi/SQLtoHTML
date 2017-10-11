@@ -7,7 +7,7 @@ I have used database in many projects of mine, and am surely going to use them i
 Place the .db file in the root directory along with main.py and run main.py  
 
 
-## [Demo](https://haideralipunjabi.github.io/SQLtoHTML/)
+## [Demo](https://haideralipunjabi.github.io/SQLtoHTML/) (I have used Bootstrap to make it look beautiful)
   ![Screenshot](https://i.imgur.com/FcjBGxm.png)
 
 # Tip
