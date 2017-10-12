@@ -10,9 +10,5 @@ def getDatabases():     #Returns databases present in root directory
 
     return databases
 
-def isFile(f):
-        if(isfile(f)):
-            return True
-        else:
-            return False
+
 
